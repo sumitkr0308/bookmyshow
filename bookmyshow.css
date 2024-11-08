@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.bms{
+    margin-top:1px;
+    height: 60px;
+    width: 140px;
+    margin-left: 10px;
+}
+.search{
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#s{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+}
+.searching{
+    height: 30px;
+    width: 80px;
+    background-color:white;
+    border-radius: 10px;
+    border-color:white;
+}
+.sign >button {
+    margin-top: 15px;
+    margin-left: 35vw;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(198, 8, 8);
+    border-radius: 10px;
+    border-color:rgb(201, 3, 3);
+    font-weight: bold;
+    
+
+}
+
+
+.list{
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+.list2{ 
+    margin-left: 40vw;
+    background-color: black;
+    color: white
+}
+.box1{
+    margin: 10px;
+}
+.box2{
+    margin: 10px;
+}
+.ad{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color:  rgb(216, 216, 216);;
+}
+.img2{
+    align-self: center;
+}
+
+
+.aimg{
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.card{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-left: 8vw;
+
+
+}
+h1{
+    margin-left: 10vw;
+    margin-top: 3rem;
+}
+.mimg{
+
+    height: 55vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+.name1{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.name2{
+    color: rgb(105, 103, 103);
+    font-size: 16px;
+}
+.img21{
+   margin-left: 30px;
+}
+.img3{
+    margin-top: 2rem;
+    text-align: center;
+}
+.img3>img{
+    max-width: 80%;
+    border-radius: 10px;
+}
+.card2{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow-x: scroll;
+    margin-left: 8vw;
+}
+.img4{
+    margin-left: 30px;
+    
+}
+.cimg{
+    
+    height: 40vh;
+    width: 40vh;
+    border-radius: 10px;
+
+}
+.premier{
+   margin-top: 2rem;
+    background-color: rgb(9, 9, 9);
+    color: white;
+}
+.para{
+    margin-left: 22vh;
+}
+.footer{
+    margin-top: 5rem;
+    background-color: rgb(57, 54, 54);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+
+}
+.f1{
+    font-size: 30px;
+    color: rgb(213, 207, 207); 
+    margin-bottom: 80px;
+    margin-right: 1px;
+}
+.f{
+    margin-top: 2.5rem;
+}
+.f2{
+    margin-left:10px;
+    font-size: 20px;
+    color: rgb(213, 207, 207); 
+    margin-top: 3.4rem;
+}
+.f5{
+    display: flex;
+    flex-direction: row;
+}
+.f3{
+    background-color: rgb(224, 33, 33);
+    width: 200px;
+    border-color: rgb(246, 5, 57);
+    height: 50px;
+    font-weight: bold;
+}
+p{
+    background-color: rgb(57, 54, 54);
+    align-self: center;
+    justify-content: start;
+    text-align: center;
+    color: rgb(213, 207, 207) ;
+}
+@media (max-width:500px) {
+    .logo{
+        flex-direction: column;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+        margin: 2rem;
+    }
+    .card2{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .box22{
+        flex-direction: column;
+    }
+    .cimg{
+    
+        height: 40vh;
+        width: 400vh;
+        border-radius: 10px;
+    
+    }
+    
+}
+.box22{
+    background-color:rgb(57, 54, 54) ;
+    display: flex;
+    justify-content: center;
+}
+
